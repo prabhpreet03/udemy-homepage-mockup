@@ -1,0 +1,253 @@
+a{
+    text-decoration: none;
+}
+html {
+    background-color: white;
+    font-family: Arial;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    margin-bottom: 50px;
+}
+
+.top-banner-ad{
+    text-align: center;
+    display: block;
+    padding: 15px;
+    background-color: rgb(245, 192, 58);
+}
+
+.top-banner-ad-close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    margin: 0;
+}
+
+.alert-banner-close-btn {
+    position: absolute;
+    top: calc(50% - 12px);
+    right: 10px;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.banner-content p {
+    margin: 5px 0;
+}
+
+.homepage-content {
+    display: block;
+    position: relative;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.alert-banner {
+    position: relative;
+    margin: 10px 0;
+    padding: 15px 20px;
+    background: rgba(0,0,0,.05);
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+}
+
+.alert-banner .alert-banner-content {
+    font-weight: 300;
+    font-size: 16px;
+    margin: 0;
+}
+
+.alert-banner span.highlight-question {
+    font-weight: 900;
+    color: #555;
+}
+
+.alert-banner span.highlight-answer {
+    color: #777;
+}
+
+.alert-banner span.highlight-answer {
+    color: #777;
+}
+
+.banner-content p.banner-content-highlight {
+    font-weight: 900;
+    font-size: 24px;
+    margin: 15px 0 0 0;
+}
+.two-days-left {
+    margin-top:5px;
+}
+/* NAV BAR -----------------------------*/
+li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav.header-nav {
+    position: relative;
+    height: auto;
+    clear:both;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid #e1e1e1;
+}
+
+nav.header-nav .header-left-content {
+    position: relative;
+    float: left;
+    height: 70px;
+}
+
+nav.header-nav .header-right-content {
+    position: relative;
+    float: right;
+    height: 70px;
+}
+
+ul.rest-of-nav{
+    display: block;
+    list-style: none;
+    position: relative;
+    float: left;
+    width: 100%;
+    margin: 0px;
+    padding: 10px 15px;
+}
+
+ul.rest-of-nav li{
+    display: inline-block;
+    width: auto;
+    position: relative;
+    float: none;
+    vertical-align: middle;
+    padding: 5px 15px;
+}
+.navbar-udemy-logo{
+
+}
+.categories{
+
+    color: black;
+}
+.search-button{
+    position: relative;
+    margin-right: 30px;
+}
+
+.search-button span {
+    float: left;
+}
+
+.search-input-text{
+    width: 400px;
+    height: 33px;
+}
+.search-icon{
+    background-color: pink;
+    width:30px;
+    height:33px;
+}
+.search-icon-i{ 
+    padding: 5px;
+    width:20px;
+    height:20px;
+}
+.instructor {
+
+    color: black;
+}
+.my-courses {
+
+    color: black;
+}
+.heart{
+
+}
+.cart{
+
+}
+.notifications{
+
+}
+.profile-photo a img{
+    border-radius: 50px;
+}
+/* CLOSE NAV BAR -----------------------------*/
+
+.hero-image{
+    width: auto;
+}
+
+.hero-image img {
+    width: 100%;
+    height: auto;
+}
+/* Training 5 people-----------------------------*/
+.long-text{
+    color: rgb(124, 124, 124); 
+    padding-left:20px;
+    padding-right:480px;
+    padding-top: 10px;
+    padding-bottom:10px;
+    border-style:solid; 
+    border-color:rgb(124, 124, 124); 
+    border-width: 2px;
+}
+.people-close {
+    margin-top: 15px;
+    margin-right: 10px;
+    text-align: right;
+}
+/* Close Training 5 people-----------------------------*/
+.menu-options-for-classes{
+    display: inline-block;
+}
+.class-category-menu a{
+    color: rgb(53, 53, 53);
+}
+.footer-container {
+    display: inline-block;
+    width: auto;
+    border-color: black;
+    border-width: 1px;
+    overflow-x: scroll;
+}
+.card-one{
+    color:rgb(37, 37, 37);
+    align-content: center;
+    border-style:solid; 
+    border-color:rgb(105, 105, 105); 
+    border-width: 1px;
+    border-radius: 2px;
+    width: 218px;
+    height: 370px;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    padding-inline-start:0;
+}
+
+h4{
+    font-size: 20px;
+}
+.old-price {
+    font-size:10;
+    text-decoration-line: line-through;
+}
+.first-picture{
+    width: auto;
+    padding: auto;
+    justify-content: center;
+}
+.pricing{
+    display: inline;
+
+}
